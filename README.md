@@ -6,8 +6,14 @@ Instructions to set up
 2.[Install CUDA](https://developer.nvidia.com/cuda-downloads)
 
 3.Install pytorch
+```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
 
-4.Install requirments.txt
+4.Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
 5.Download Dataset from Kaggle (https://www.kaggle.com/datasets/eyantraiit/semantic-segmentation-datasets-of-indian-roads)
 
