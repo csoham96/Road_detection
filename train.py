@@ -29,7 +29,7 @@ dir_checkpoint = Path('./checkpoints/')
 def train_model(
         model,
         device,
-        epochs: int = 5,
+        epochs: int = 30,
         batch_size: int = 1,
         learning_rate: float = 1e-5,
         val_percent: float = 0.1,
